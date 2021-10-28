@@ -1,0 +1,15 @@
+{
+    "name": "logiek/raidbots-api",
+    "description": "Raidbots API wrapper which incorporates existing reports and static data into your project.",
+    "keywords": ["raidbots", "api"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logiek\\Raidbots\\": "src/"
+        }
+    }
+}
