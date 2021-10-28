@@ -13,8 +13,6 @@ abstract class DataEndpoint extends Endpoint
 {
     private const DEFAULT_VERSION = 'live';
 
-    abstract protected function getDataKey(): string;
-
     /**
      * @throws InvalidVersionException
      */
@@ -24,6 +22,8 @@ abstract class DataEndpoint extends Endpoint
 
         return $this->sendResponse($response);
     }
+
+    abstract protected function getDataKey(): string;
 
     /**
      * @throws InvalidVersionException

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Logiek\Raidbots\Endpoints;
 
-use Exception;
 use GuzzleHttp\Exception\GuzzleException;
 use Logiek\Raidbots\Exceptions\InvalidReportException;
 use Logiek\Raidbots\Exceptions\InvalidUrlException;

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Logiek\Raidbots\Endpoints;
 
-use Exception;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\ResponseInterface;
