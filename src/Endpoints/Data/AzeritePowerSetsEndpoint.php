@@ -6,7 +6,7 @@ namespace Logiek\Raidbots\Endpoints\Data;
 
 class AzeritePowerSetsEndpoint extends DataEndpoint
 {
-    public function getDataKey(): string
+    protected function getDataKey(): string
     {
         return 'azerite-power-sets';
     }

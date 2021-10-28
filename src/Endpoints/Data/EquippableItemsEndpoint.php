@@ -6,7 +6,7 @@ namespace Logiek\Raidbots\Endpoints\Data;
 
 class EquippableItemsEndpoint extends DataEndpoint
 {
-    public function getDataKey(): string
+    protected function getDataKey(): string
     {
         return 'equippable-items';
     }

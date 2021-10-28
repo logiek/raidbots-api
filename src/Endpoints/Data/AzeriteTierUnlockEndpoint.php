@@ -6,7 +6,7 @@ namespace Logiek\Raidbots\Endpoints\Data;
 
 class AzeriteTierUnlockEndpoint extends DataEndpoint
 {
-    public function getDataKey(): string
+    protected function getDataKey(): string
     {
         return 'azerite-tier-unlock';
     }

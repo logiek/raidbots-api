@@ -4,22 +4,22 @@ declare(strict_types=1);
 
 namespace Logiek\Raidbots\Endpoints\Data;
 
-use Exception;
 use GuzzleHttp\Exception\GuzzleException;
 use Logiek\Raidbots\Endpoints\Endpoint;
 use Logiek\Raidbots\Exceptions\InvalidVersionException;
 use Psr\Http\Message\ResponseInterface;
 
-abstract class DataEndpoint extends Endpoint implements DataEndpointInterface
+abstract class DataEndpoint extends Endpoint
 {
     private const DEFAULT_VERSION = 'live';
+
+    abstract protected function getDataKey(): string;
 
     /**
      * @throws InvalidVersionException
      */
-    public function get(?string $version = null): array
+    public function get(string $version = self::DEFAULT_VERSION): array
     {
-        $version = $version ?? self::DEFAULT_VERSION;
         $response = $this->getData($this->getDataKey(), $version);
 
         return $this->sendResponse($response);

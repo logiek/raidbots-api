@@ -14,7 +14,7 @@ $client = new Client();
 $report = $client->reports->get('oUPDjYTw26K7vr93m1vFFb');
 $report = $client->reports->get('https://www.raidbots.com/simbot/report/oUPDjYTw26K7vr93m1vFFb', true);
 $conduits = $client->conduits->get();
-$conduits = $client->conduits->get('ptr');
+$talents = $client->talents->get('ptr');
 ```
 
 ## License
