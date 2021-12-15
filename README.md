@@ -1,4 +1,4 @@
-# Raidbots API
+# raidbots-api
 
 [![Latest Stable Version](https://poser.pugx.org/logiek/raidbots-api/v/stable)](https://packagist.org/packages/logiek/raidbots-api) [![Total Downloads](https://poser.pugx.org/logiek/raidbots-api/downloads)](https://packagist.org/packages/logiek/raidbots-api) [![License](https://poser.pugx.org/logiek/raidbots-api/license)](https://packagist.org/packages/logiek/raidbots-api) [![PHP Version Require](http://poser.pugx.org/logiek/raidbots-api/require/php)](https://packagist.org/packages/logiek/raidbots-api)
 
