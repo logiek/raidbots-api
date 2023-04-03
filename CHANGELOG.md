@@ -1,7 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/logiek/raidbots-api/compare/2.0.0...master)
+## [Unreleased](https://github.com/logiek/raidbots-api/compare/2.0.1...master)
+
+## [2.0.1 (2023-04-03)](https://github.com/logiek/raidbots-api/compare/2.0.0....2.0.1)
+
+### Changed
+- Updated `README.md` to not contain old data endpoints.
 
 ## [2.0.0 (2023-04-03)](https://github.com/logiek/raidbots-api/compare/1.0.2....2.0.0)
 
