@@ -1,7 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/logiek/raidbots-api/compare/1.0.2...master)
+## [Unreleased](https://github.com/logiek/raidbots-api/compare/2.0.0...master)
+
+## [2.0.0 (2023-04-03)](https://github.com/logiek/raidbots-api/compare/1.0.2....2.0.0)
+
+### Added
+- Created new data endpoints that have been added to the recent Raidbots release.
+
+### Removed
+- Dropped various data endpoints due to recent Raidbots release.
 
 ## [1.0.2 (2021-12-15)](https://github.com/logiek/raidbots-api/compare/1.0.1....1.0.2)
 

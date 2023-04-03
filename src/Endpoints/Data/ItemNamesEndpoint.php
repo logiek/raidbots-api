@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Logiek\Raidbots\Endpoints\Data;
 
-class ConduitsEndpoint extends DataEndpoint
+class ItemNamesEndpoint extends DataEndpoint
 {
     protected function getDataKey(): string
     {
-        return 'conduits';
+        return 'item-names';
     }
 }

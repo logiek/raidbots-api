@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Logiek\Raidbots\Endpoints\Data;
 
-class ConduitRanksEndpoint extends DataEndpoint
+class ItemLimitCategoriesEndpoint extends DataEndpoint
 {
     protected function getDataKey(): string
     {
-        return 'conduit-ranks';
+        return 'item-limit-categories';
     }
 }
