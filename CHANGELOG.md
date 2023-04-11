@@ -1,7 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/logiek/raidbots-api/compare/2.1.0...master)
+## [Unreleased](https://github.com/logiek/raidbots-api/compare/2.1.1...master)
+
+## [2.1.1 (2023-04-11)](https://github.com/logiek/raidbots-api/compare/2.1.0....2.1.1)
+
+### Changed
+- Fixed codestyle.
 
 ## [2.1.0 (2023-04-11)](https://github.com/logiek/raidbots-api/compare/2.0.1....2.1.0)
 

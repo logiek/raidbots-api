@@ -4,12 +4,7 @@ declare(strict_types=1);
 
 namespace Logiek\Raidbots;
 
-use Logiek\Raidbots\Endpoints\Data\AzeritePowerSetsEndpoint;
-use Logiek\Raidbots\Endpoints\Data\AzeriteTierUnlockEndpoint;
 use Logiek\Raidbots\Endpoints\Data\BonusesEndpoint;
-use Logiek\Raidbots\Endpoints\Data\ConduitRanksEndpoint;
-use Logiek\Raidbots\Endpoints\Data\ConduitsEndpoint;
-use Logiek\Raidbots\Endpoints\Data\CovenantsEndpoint;
 use Logiek\Raidbots\Endpoints\Data\CraftingEndpoint;
 use Logiek\Raidbots\Endpoints\Data\EnchantmentsEndpoint;
 use Logiek\Raidbots\Endpoints\Data\EquippableItemsEndpoint;
@@ -19,7 +14,6 @@ use Logiek\Raidbots\Endpoints\Data\ItemCurvesEndpoint;
 use Logiek\Raidbots\Endpoints\Data\ItemLimitCategoriesEndpoint;
 use Logiek\Raidbots\Endpoints\Data\ItemNamesEndpoint;
 use Logiek\Raidbots\Endpoints\Data\ItemSetsEndpoint;
-use Logiek\Raidbots\Endpoints\Data\LegendaryAbilitiesEndpoint;
 use Logiek\Raidbots\Endpoints\Data\TalentsEndpoint;
 use Logiek\Raidbots\Endpoints\ReportsEndpoint;
 
