@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use Logiek\Raidbots\Exceptions\InvalidReportException;
 use Logiek\Raidbots\Exceptions\InvalidUrlException;
 
-class ReportEndpoint extends Endpoint
+class ReportsEndpoint extends Endpoint
 {
     /**
      * @throws InvalidUrlException|InvalidReportException

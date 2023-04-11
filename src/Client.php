@@ -10,52 +10,58 @@ use Logiek\Raidbots\Endpoints\Data\BonusesEndpoint;
 use Logiek\Raidbots\Endpoints\Data\ConduitRanksEndpoint;
 use Logiek\Raidbots\Endpoints\Data\ConduitsEndpoint;
 use Logiek\Raidbots\Endpoints\Data\CovenantsEndpoint;
+use Logiek\Raidbots\Endpoints\Data\CraftingEndpoint;
+use Logiek\Raidbots\Endpoints\Data\EnchantmentsEndpoint;
 use Logiek\Raidbots\Endpoints\Data\EquippableItemsEndpoint;
 use Logiek\Raidbots\Endpoints\Data\InstancesEndpoint;
+use Logiek\Raidbots\Endpoints\Data\ItemConversionsEndpoint;
 use Logiek\Raidbots\Endpoints\Data\ItemCurvesEndpoint;
+use Logiek\Raidbots\Endpoints\Data\ItemLimitCategoriesEndpoint;
+use Logiek\Raidbots\Endpoints\Data\ItemNamesEndpoint;
+use Logiek\Raidbots\Endpoints\Data\ItemSetsEndpoint;
 use Logiek\Raidbots\Endpoints\Data\LegendaryAbilitiesEndpoint;
 use Logiek\Raidbots\Endpoints\Data\TalentsEndpoint;
-use Logiek\Raidbots\Endpoints\ReportEndpoint;
+use Logiek\Raidbots\Endpoints\ReportsEndpoint;
 
 class Client
 {
-    public ReportEndpoint $reports;
-
-    public AzeriteTierUnlockEndpoint $azeriteTierUnlockEndpoint;
-
-    public AzeritePowerSetsEndpoint $azeritePowerSets;
-
-    public ItemCurvesEndpoint $itemCurves;
-
-    public InstancesEndpoint $instances;
-
-    public TalentsEndpoint $talents;
-
     public BonusesEndpoint $bonuses;
 
-    public LegendaryAbilitiesEndpoint $legendaryAbilities;
+    public CraftingEndpoint $crafting;
 
-    public ConduitRanksEndpoint $conduitRanks;
-
-    public ConduitsEndpoint $conduits;
-
-    public CovenantsEndpoint $covenants;
+    public EnchantmentsEndpoint $enchantments;
 
     public EquippableItemsEndpoint $equippableItems;
 
+    public InstancesEndpoint $instances;
+
+    public ItemConversionsEndpoint $itemConversions;
+
+    public ItemCurvesEndpoint $itemCurves;
+
+    public ItemLimitCategoriesEndpoint $itemLimitCategories;
+
+    public ItemNamesEndpoint $itemNames;
+
+    public ItemSetsEndpoint $itemSets;
+
+    public TalentsEndpoint $talents;
+
+    public ReportsEndpoint $reports;
+
     public function __construct()
     {
-        $this->reports = new ReportEndpoint();
-        $this->azeriteTierUnlockEndpoint = new AzeriteTierUnlockEndpoint();
-        $this->azeritePowerSets = new AzeritePowerSetsEndpoint();
-        $this->itemCurves = new ItemCurvesEndpoint();
-        $this->instances = new InstancesEndpoint();
-        $this->talents = new TalentsEndpoint();
         $this->bonuses = new BonusesEndpoint();
-        $this->legendaryAbilities = new LegendaryAbilitiesEndpoint();
-        $this->conduitRanks = new ConduitRanksEndpoint();
-        $this->conduits = new ConduitsEndpoint();
-        $this->covenants = new CovenantsEndpoint();
+        $this->crafting = new CraftingEndpoint();
+        $this->enchantments = new EnchantmentsEndpoint();
         $this->equippableItems = new EquippableItemsEndpoint();
+        $this->instances = new InstancesEndpoint();
+        $this->itemConversions = new ItemConversionsEndpoint();
+        $this->itemCurves = new ItemCurvesEndpoint();
+        $this->itemLimitCategories = new ItemLimitCategoriesEndpoint();
+        $this->itemNames = new ItemNamesEndpoint();
+        $this->itemSets = new ItemSetsEndpoint();
+        $this->talents = new TalentsEndpoint();
+        $this->reports = new ReportsEndpoint();
     }
 }
